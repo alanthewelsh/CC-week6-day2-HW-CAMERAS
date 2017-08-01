@@ -21,6 +21,8 @@ public class PhotographerTest {
 
   @Test
   public void canRemoveCamera(){
+    photographer.store(digitalcamera);
+    photographer.remove();
    assertEquals(0, photographer.cameraCount());
   }
 

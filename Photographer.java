@@ -16,10 +16,7 @@ class Photographer {
   }
 
   public void remove(){
-    if(cameraCount() > 0) {
-      return this.store.remove(0);
-    }
-    return null;
+    this.store.clear();
   }
 
   // public void printAllDetails(){
