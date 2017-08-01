@@ -19,8 +19,12 @@ class Photographer {
     this.store.clear();
   }
 
-  // public void printAllDetails(){
-
-  // }
+  public void printAllDetails(){
+        String details = "";
+       for (int i = 0 ; i < this.digitalcamera.size(); i++ ) {
+          details += this.digitalcamera.get(i).printDetails();
+        }
+       return details;
+  }
 
 }
