@@ -21,10 +21,7 @@ public class PhotographerTest {
 
   @Test
   public void canRemoveCamera(){
-    if(cameraCount() > 0) {
-      return camera.remove(0);
-    }
-    return null;
+   assertEquals(0, photographer.cameraCount());
   }
 
 }

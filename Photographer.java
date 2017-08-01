@@ -15,15 +15,15 @@ class Photographer {
     this.store.add(camera);
   }
 
-  public void removeCamera(){
+  public void remove(){
     if(cameraCount() > 0) {
-      return store.remove(0);
+      return this.store.remove(0);
     }
     return null;
   }
 
   // public void printAllDetails(){
-    
+
   // }
 
 }

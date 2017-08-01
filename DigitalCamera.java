@@ -12,9 +12,9 @@ public class DigitalCamera implements Printable{
 
   }  
 
-  public String print(){
-    return this.make + " | " + this.filter + " | " + this.resoultion;
-  }
+  // public String print(){
+  //   return this.make + " | " + this.filter + " | " + this.resoultion;
+  // }
 
   
 }
